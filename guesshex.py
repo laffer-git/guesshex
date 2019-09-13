@@ -14,7 +14,6 @@ class GuessHex:
         self.hex_label.place(x=285,y=170)
         self.winlose = tk.Label(parent, text="")
         self.winlose.place(x=220, y=200)
-        button = tk.Button(parent, text="")
         self.canvas = tk.Canvas(parent, width=600,height=80)
         self.canvas.place(x=30,y=30)
         self.col = {}
